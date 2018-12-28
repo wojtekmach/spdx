@@ -1,0 +1,2 @@
+defmodule SPDX do
+end
