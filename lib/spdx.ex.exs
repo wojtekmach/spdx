@@ -6,7 +6,7 @@ json =
       json
 
     {:error, :enoent} ->
-      IO.puts("#{json_path} not found, run `git submodule update`")
+      IO.puts("#{json_path} not found, run `git submodule init && git submodule update`")
       System.halt(1)
   end
 
